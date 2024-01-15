@@ -521,7 +521,6 @@ function findLongestIncreasingSubsequence(nums) {
   let tempMax = 0;
 
   const max = nums.reduce((acc, item, index) => {
-    console.warn(tempMax, acc);
     if (index === 0) {
       return 1;
     }
